@@ -7,7 +7,7 @@ Data Enthusiast | Problem Solver | Insight Generator
 
 Passionate about turning raw data into actionable insights using Python, Excel, R SQL, Power BI, and Tableau.
 
-🔹 **Skills:** Data Cleaning, SQL Analytics, EDA with python, Business Intelligence, R or Excel
+🔹 **Skills:** Data Cleaning, SQL Analytics, EDA with python, Business Intelligence, R or Excel.
 🔹 **Projects:** [GitHub Portfolio](https://github.com/Allan-Ofula?tab=repositories)  
 🔹 **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/allan-ofula-b2804911b/)  
 
@@ -38,6 +38,7 @@ This project involved analyzing user engagement with the 365Data Science platfor
 -Total Likes Received
 -Total Comments Received
 - User Activity Bar Chart: Visualized the number of visitors, active users, and those engaging through likes, comments, or manual posts.
+
 [Tableau interactive Dashboard Link:](https://public.tableau.com/app/profile/allan.ofula/viz/NewsfeedAnalysisDashboard_17394671683270/NewsfeedAnalysisDashboard)
 
 # [Project 3: Aviation Safety Risk Analysis](https://github.com/Allan-Ofula/Aviation-Safety-Risk-Analysis-Project-Phase1)
@@ -52,6 +53,7 @@ This project involved analyzing aviation accident data from 1962 to 2023 using d
 Accident Trends by Aircraft Model: Highlighted trends in accidents over time by aircraft model.
 Accidents Over Time: Showed the annual trend of aviation accidents.
 Risk Distribution by Aircraft Type: Displayed risk distribution across various aircraft types and accident severity.
+
 [Tableau Interactive Dashboard Link:](https://public.tableau.com/app/profile/allan.ofula/viz/AVIATIONSAFETYRISKANALYSISVISUALIZATION/Dashboard1)
 
 # [Project 4: Retail Sales Data Analysis With Pandas](https://github.com/Allan-Ofula/retail_sales_data_analysis_with_pandas)
