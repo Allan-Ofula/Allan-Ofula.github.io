@@ -34,8 +34,8 @@ This project involved analyzing user engagement with the 365Data Science platfor
 # Visualizations Created
 - Dual Axis Chart: Displayed the monthly count of posts alongside the average likes per post, highlighting content popularity and user engagement trends over time.
 - Bar Charts:
-Total Number of Posts
-Total Likes Received
-Total Comments Received
+-Total Number of Posts
+-Total Likes Received
+-Total Comments Received
 - User Activity Bar Chart: Visualized the number of visitors, active users, and those engaging through likes, comments, or manual posts.
 [Tableau Link:](https://public.tableau.com/app/profile/allan.ofula/viz/NewsfeedAnalysisDashboard_17394671683270/NewsfeedAnalysisDashboard)
