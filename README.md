@@ -54,4 +54,4 @@ Accidents Over Time: Showed the annual trend of aviation accidents.
 Risk Distribution by Aircraft Type: Displayed risk distribution across various aircraft types and accident severity.
 [Tableau Interactive Dashboard Link:](https://public.tableau.com/app/profile/allan.ofula/viz/AVIATIONSAFETYRISKANALYSISVISUALIZATION/Dashboard1)
 
-# Project 4: Retail Sales Data Analysis With Pandas
+# [Project 4: Retail Sales Data Analysis With Pandas](https://github.com/Allan-Ofula/retail_sales_data_analysis_with_pandas)
