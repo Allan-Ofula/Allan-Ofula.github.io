@@ -31,7 +31,7 @@ This project involved analyzing user engagement with the 365Data Science platfor
 - Measured the proportion of users engaging with the Newsfeed through likes, comments, or manual posts.
 - Provided Recommendations based on data analysis, suggested strategies to enhance user engagement.
 
-#Visualizations Created
+# Visualizations Created
 - Dual Axis Chart: Displayed the monthly count of posts alongside the average likes per post, highlighting content popularity and user engagement trends over time.
 - Bar Charts:
 Total Number of Posts
