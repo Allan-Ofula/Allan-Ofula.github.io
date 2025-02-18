@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f9;
   color: #333;
@@ -30,7 +30,7 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 30px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -68,6 +68,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #1abc9c; /* Hover color */
+  text-decoration: underline;
 }
 
 /* Section Styling */
@@ -89,11 +90,12 @@ h2 {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease; /* Optional: Adds smooth hover effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
 }
 
 .project-card:hover {
   transform: scale(1.05); /* Slightly enlarges the project card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a more prominent shadow */
 }
 
 .project-card h3 {
@@ -115,6 +117,7 @@ h2 {
 
 .project-card a:hover {
   text-decoration: underline;
+  color: #16a085; /* Hover color */
 }
 
 /* Project Image Styling */
