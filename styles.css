@@ -26,6 +26,7 @@ body {
   margin: 0 auto;
 }
 
+/* Header Styling */
 header {
   background-color: #333;
   color: #fff;
@@ -43,6 +44,7 @@ header p {
   margin-bottom: 20px;
 }
 
+/* Navigation Styling */
 nav {
   background-color: #444;
 }
@@ -64,6 +66,11 @@ nav ul li a {
   font-size: 1.2rem;
 }
 
+nav ul li a:hover {
+  color: #1abc9c; /* Hover color */
+}
+
+/* Section Styling */
 section {
   padding: 40px 0;
   background-color: #fff;
@@ -75,12 +82,18 @@ h2 {
   margin-bottom: 40px;
 }
 
+/* Project Card Styling */
 .project-card {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Optional: Adds smooth hover effect */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slightly enlarges the project card on hover */
 }
 
 .project-card h3 {
@@ -113,19 +126,7 @@ h2 {
   border-radius: 8px; /* Optional: Adds rounded corners to the images */
 }
 
-.project-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease; /* Optional: Adds smooth hover effect */
-}
-
-.project-card:hover {
-  transform: scale(1.05); /* Optional: Slightly enlarges the project card on hover */
-}
-
+/* Footer Styling */
 footer {
   background-color: #333;
   color: white;
