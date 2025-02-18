@@ -17,19 +17,13 @@
     header {
       background-color: #2c3e50;
       color: #fff;
-      padding: 40px 0;
+      padding: 20px;
       text-align: center;
     }
 
-    header .logo {
-      width: 150px;
-      margin-bottom: 20px;
-    }
-
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
       color: #ecf0f1;
-      margin-bottom: 10px;
     }
 
     p {
@@ -76,19 +70,22 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       margin-bottom: 20px;
       padding: 15px;
-      text-align: center;
     }
 
     .project-card h3 {
       color: #2c3e50;
     }
 
+    /* Project Image Styling */
     .project-card img {
       width: 100%;
       max-width: 500px;
       height: auto;
       margin-bottom: 15px;
       border-radius: 8px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     footer {
@@ -106,78 +103,9 @@
     footer a:hover {
       text-decoration: underline;
     }
-
-    #contact {
-      padding: 40px 0;
-      background-color: #fff;
-    }
-
-    .contact-form {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      flex-basis: 30%;
-    }
-
-    .form-group label {
-      margin-bottom: 5px;
-    }
-
-    .form-group input,
-    .form-group textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      width: 100%;
-    }
-
-    textarea {
-      resize: none;
-    }
-
-    .submit-btn {
-      background-color: #1abc9c;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      width: 100%;
-      margin-top: 20px;
-    }
-
-    .submit-btn:hover {
-      background-color: #16a085;
-    }
-
-    @media (max-width: 768px) {
-      .contact-form {
-        flex-direction: column;
-      }
-
-      .form-group {
-        flex-basis: 100%;
-      }
-
-      header h1 {
-        font-size: 2.5em;
-      }
-
-      nav ul li {
-        display: block;
-        margin-bottom: 10px;
-      }
-    }
   </style>
 </head>
 <body>
-
   <header>
     <div class="container">
       <img src="Logo.png" alt="Allan Ofula Logo" class="logo">
@@ -197,9 +125,10 @@
 
   <section id="projects" class="container">
     <h2>Projects</h2>
+
     <div class="project-card">
       <h3>Project 1: Football Transfers Analysis in Excel</h3>
-      <img src="/Images/Football-Transfers-Analysis-Image.png" alt="Football Transfers Analysis">
+      <img src="/Images/Football_Transfers_Analysis.png" alt="Football Transfers Analysis">
       <p>This project involved analyzing the economic patterns of international football transfers using Excel. Key tasks and findings included:</p>
       <ul>
         <li>Database Review and Cleaning</li>
@@ -208,21 +137,42 @@
         <li>Transfers by Country</li>
         <li>Net Transfer Calculations</li>
       </ul>
-      <a href="https://github.com/Allan-Ofula/Football-Transfers-Analysis-in-Excel" target="_blank">Explore Project</a>
+      <a href="https://github.com/Allan-Ofula/Football-Transfers-Analysis-in-Excel" target="_blank">View Project</a>
     </div>
 
     <div class="project-card">
       <h3>Project 2: Newsfeed Engagement Analysis in Tableau</h3>
-      <img src="/Images/Newsfeed-Analysis-Dashboard.png" alt="Newsfeed Engagement Analysis">
+      <img src="/Images/Newsfeed_Analysis_Dashboard.png" alt="Newsfeed Engagement Analysis">
       <p>This project involved analyzing user engagement with the 365Data Science platform’s Newsfeed feature using Tableau.</p>
-      <a href="https://github.com/Allan-Ofula/Newsfeed-Engagement-Analysis-in-Tableau-Project" target="_blank">Explore Project</a>
+      <a href="https://github.com/Allan-Ofula/Newsfeed-Engagement-Analysis-in-Tableau-Project" target="_blank">View Project</a>
     </div>
 
     <div class="project-card">
       <h3>Project 3: Aviation Safety Risk Analysis</h3>
-      <img src="/Images/Aviation-Risk-Analysis-Image.png" alt="Aviation Safety Risk Analysis">
+      <img src="/Images/Aviation_Risk_Analysis.png" alt="Aviation Safety Risk Analysis">
       <p>Analyzing aviation accident data from 1962 to 2023 to identify the safest aircraft for a company entering the aviation industry.</p>
-      <a href="https://github.com/Allan-Ofula/Aviation-Safety-Risk-Analysis-Project-Phase1" target="_blank">Explore Project</a>
+      <a href="https://github.com/Allan-Ofula/Aviation-Safety-Risk-Analysis-Project-Phase1" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 4: Retail Sales Data Analysis With Pandas</h3>
+      <img src="/Images/Retail_Sales_Analysis.png" alt="Retail Sales Data Analysis With Pandas">
+      <p>This project analyzed retail sales data using Python and Pandas, uncovering insights to optimize sales strategies and improve revenue.</p>
+      <a href="https://github.com/Allan-Ofula/retail_sales_data_analysis_with_pandas" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 5: Exploratory Data Analysis (EDA) with Pandas</h3>
+      <img src="/Images/EDA_with_Pandas.png" alt="Exploratory Data Analysis (EDA) with Pandas">
+      <p>This project involved a comprehensive EDA of the Ames Housing dataset to uncover insights into house prices and key features.</p>
+      <a href="https://github.com/Allan-Ofula/EDA-with-Pandas--Cumulative-Lab" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 6: Superhero Eye Color Analysis</h3>
+      <img src="/Images/Superhero_Eye_Color.png" alt="Superhero Eye Color Analysis">
+      <p>Analyzed the distribution of superhero eye colors among "good" aligned characters using Pandas and Matplotlib.</p>
+      <a href="https://github.com/Allan-Ofula/Pandas-Data-Cleaning-Checkpoint" target="_blank">View Project</a>
     </div>
   </section>
 
@@ -230,25 +180,15 @@
     <h2>Contact</h2>
     <p>If you'd like to get in touch, feel free to reach out to me via email or fill out the contact form below.</p>
 
-    <form class="contact-form">
-      <div class="form-group">
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" name="fullName" required>
-      </div>
-
-      <div class="form-group">
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-
-      <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-      </div>
-
-      <button type="submit" class="submit-btn">Submit</button>
+    <form>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Submit</button>
     </form>
-
     <p>You can also reach me via email: <a href="mailto:ofulaallan@gmail.com">ofulaallan@gmail.com</a></p>
   </section>
 
