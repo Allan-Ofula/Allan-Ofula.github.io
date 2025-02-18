@@ -14,8 +14,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif, 'Helvetica Neue', Helvetica; /* Font fallback */
   line-height: 1.6;
   background-color: #f4f4f9;
   color: #333;
@@ -66,9 +70,11 @@ nav ul li a {
   font-size: 1.2rem;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
   color: #1abc9c; /* Hover color */
   text-decoration: underline;
+  outline: 3px solid #1abc9c; /* Focus style */
 }
 
 /* Section Styling */
@@ -145,8 +151,10 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:focus {
   text-decoration: underline;
+  outline: 3px solid #1abc9c;
 }
 
 /* Contact Section Styling */
@@ -218,10 +226,45 @@ form {
   background-color: #16a085; /* Darker hover color */
 }
 
+.submit-btn:focus {
+  outline: 3px solid #1abc9c;
+}
+
 #contact a {
   color: #007bff;
 }
 
 #contact a:hover {
   text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .logo {
+    width: 100px; /* Smaller logo for mobile */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navigation items vertically */
+  }
+
+  .project-card {
+    padding: 15px; /* Reduces card padding on mobile */
+  }
+
+  .form-group input, .form-group textarea {
+    padding: 12px; /* Slightly larger inputs on mobile */
+  }
+
+  .submit-btn {
+    padding: 10px 15px; /* Slightly smaller button */
+  }
+
+  header h1 {
+    font-size: 2.5rem; /* Adjusts header title size for smaller screens */
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
 }
