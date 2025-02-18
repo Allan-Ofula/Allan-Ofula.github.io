@@ -57,3 +57,17 @@ This project involved analyzing aviation accident data from 1962 to 2023 using d
 [Tableau Interactive Dashboard Link:](https://public.tableau.com/app/profile/allan.ofula/viz/AVIATIONSAFETYRISKANALYSISVISUALIZATION/Dashboard1)
 
 # [Project 4: Retail Sales Data Analysis With Pandas](https://github.com/Allan-Ofula/retail_sales_data_analysis_with_pandas)
+This project analyzed a retail sales dataset using Python and Pandas to uncover key business insights. The dataset includes 30,000 records covering store locations, product categories, sales revenue, discounts, and marketing spend. The goal was to optimize sales strategies, improve revenue, and understand sales trends.
+
+- Data Cleaning & Preprocessing: Handled missing values, duplicates, and standardized data types.
+- Exploratory Data Analysis (EDA): Identified sales trends, product performance, and marketing effectiveness.
+- Revenue & Sales Trends: Computed total sales and revenue patterns over time.
+- Best-Performing Products: Analyzed top-selling products based on total revenue and revenue per unit.
+- Discount Impact: Assessed the profitability of high vs. low-discount sales.
+- Holiday vs. Non-Holiday Sales: Compared revenue performance during holidays vs. regular days.
+- Marketing Spend Effectiveness: Measured the correlation between marketing spend and sales revenue.
+- Correlation Analysis: Explored relationships between revenue, discounts, and marketing spend using a heatmap.
+
+**Tools Used**
+- Python (Pandas, NumPy) for data manipulation
+- Matplotlib & Seaborn for data visualization
