@@ -1,12 +1,3 @@
-/* Logo Styling */
-.logo {
-  width: 120px; /* Adjust to your desired logo size */
-  height: auto;
-  margin-bottom: 20px; /* Adds space below the logo */
-  display: inline-block;
-  vertical-align: middle;
-}
-
 /* General Styles */
 * {
   margin: 0;
@@ -14,12 +5,8 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth; /* Smooth scrolling */
-}
-
 body {
-  font-family: 'Arial', sans-serif, 'Helvetica Neue', Helvetica; /* Font fallback */
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f9;
   color: #333;
@@ -70,23 +57,9 @@ nav ul li a {
   font-size: 1.2rem;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
-  color: #1abc9c; /* Hover color */
+nav ul li a:hover {
+  color: #1abc9c;
   text-decoration: underline;
-  outline: 3px solid #1abc9c; /* Focus style */
-}
-
-/* Section Styling */
-section {
-  padding: 40px 0;
-  background-color: #fff;
-}
-
-h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 40px;
 }
 
 /* Project Card Styling */
@@ -96,12 +69,12 @@ h2 {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-  transform: scale(1.05); /* Slightly enlarges the project card on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a more prominent shadow */
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-card h3 {
@@ -123,148 +96,33 @@ h2 {
 
 .project-card a:hover {
   text-decoration: underline;
-  color: #16a085; /* Hover color */
+  color: #16a085;
 }
 
 /* Project Image Styling */
 .project-card img {
-  width: 100%; /* Ensures images take up the full width of the container */
-  max-width: 500px; /* Optional: Limits the maximum width of the image */
-  height: auto; /* Maintains aspect ratio */
-  margin-bottom: 15px; /* Adds space between the image and project text */
-  border-radius: 8px; /* Optional: Adds rounded corners to the images */
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
   display: block;
-  margin-left: auto; /* Centers the image horizontally */
-  margin-right: auto; /* Centers the image horizontally */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer Styling */
 footer {
   background-color: #333;
   color: white;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
 }
 
 footer a {
-  color: #007bff;
-  text-decoration: none;
+  color: #1abc9c;
 }
 
-footer a:hover,
-footer a:focus {
+footer a:hover {
   text-decoration: underline;
-  outline: 3px solid #1abc9c;
-}
-
-/* Contact Section Styling */
-#contact {
-  background-color: #f9f9f9;
-  padding: 40px 0;
-  border-top: 2px solid #ddd;
-}
-
-#contact h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-#contact p {
-  text-align: center;
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
-form {
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: #1abc9c; /* Focus color */
-  outline: none;
-}
-
-.submit-btn {
-  background-color: #1abc9c;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.submit-btn:hover {
-  background-color: #16a085; /* Darker hover color */
-}
-
-.submit-btn:focus {
-  outline: 3px solid #1abc9c;
-}
-
-#contact a {
-  color: #007bff;
-}
-
-#contact a:hover {
-  text-decoration: underline;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .logo {
-    width: 100px; /* Smaller logo for mobile */
-  }
-
-  nav ul {
-    flex-direction: column; /* Stack navigation items vertically */
-  }
-
-  .project-card {
-    padding: 15px; /* Reduces card padding on mobile */
-  }
-
-  .form-group input, .form-group textarea {
-    padding: 12px; /* Slightly larger inputs on mobile */
-  }
-
-  .submit-btn {
-    padding: 10px 15px; /* Slightly smaller button */
-  }
-
-  header h1 {
-    font-size: 2.5rem; /* Adjusts header title size for smaller screens */
-  }
-
-  header p {
-    font-size: 1.1rem;
-  }
 }
