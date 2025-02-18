@@ -1,9 +1,19 @@
+/* Logo Styling */
+.logo {
+  width: 120px; /* Adjust to your desired logo size */
+  height: auto;
+  margin-bottom: 20px; /* Adds space below the logo */
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* General Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
