@@ -106,9 +106,10 @@ h2 {
 
 /* Project Image Styling */
 .project-card img {
-  width: 100%; /* Ensures images take up full width of the container */
+  width: 100%; /* Ensures images take up the full width of the container */
+  max-width: 100%; /* Prevents images from stretching beyond their container */
   height: auto; /* Maintains aspect ratio */
-  margin-bottom: 15px; /* Adds space between image and project text */
+  margin-bottom: 15px; /* Adds space between the image and project text */
   border-radius: 8px; /* Optional: Adds rounded corners to the images */
 }
 
