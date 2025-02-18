@@ -50,9 +50,9 @@ This project involved analyzing aviation accident data from 1962 to 2023 using d
 - Provided Recommendations: Suggested strategic decisions for purchasing based on historical safety data.
 
 **Visualizations Created**
-Accident Trends by Aircraft Model: Highlighted trends in accidents over time by aircraft model.
-Accidents Over Time: Showed the annual trend of aviation accidents.
-Risk Distribution by Aircraft Type: Displayed risk distribution across various aircraft types and accident severity.
+- Accident Trends by Aircraft Model: Highlighted trends in accidents over time by aircraft model.
+- Accidents Over Time: Showed the annual trend of aviation accidents.
+- Risk Distribution by Aircraft Type: Displayed risk distribution across various aircraft types and accident severity.
 
 [Tableau Interactive Dashboard Link:](https://public.tableau.com/app/profile/allan.ofula/viz/AVIATIONSAFETYRISKANALYSISVISUALIZATION/Dashboard1)
 
