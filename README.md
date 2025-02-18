@@ -71,3 +71,28 @@ This project analyzed a retail sales dataset using Python and Pandas to uncover 
 **Tools Used**
 - Python (Pandas, NumPy) for data manipulation
 - Matplotlib & Seaborn for data visualization
+
+# [Project 5: Exploratory Data Analysis (EDA) with Pandas](https://github.com/Allan-Ofula/EDA-with-Pandas--Cumulative-Lab)
+This project involved performing a comprehensive Exploratory Data Analysis (EDA) on the Ames Housing dataset using Pandas. The goal was to uncover insights about house prices, key features, and correlations.
+
+- Data Cleaning & Inspection: Loaded, explored, and ensured dataset integrity (1460 rows, 80 columns).
+- Data Distribution Analysis: Examined SalePrice, TotRmsAbvGrd, and OverallCond, identifying trends and outliers.
+- Subset Analysis: Compared house prices based on Overall Condition, revealing a strong relationship with price.
+- Correlation Analysis:
+   - GrLivArea (Above-ground living area) was most positively correlated with price.
+   - Age (Years since construction at time of sale) was negatively correlated, showing that older homes tend to sell for less.
+- Feature Engineering: Created a new feature (Age = YrSold - YearBuilt) and analyzed its impact on home prices.
+
+This project demonstrates data manipulation, statistical analysis, and visualization techniques to derive meaningful insights from real estate data.
+
+# [Project 6: Superhero Eye Color Analysis](https://github.com/Allan-Ofula/Pandas-Data-Cleaning-Checkpoint)
+This project explores the distribution of superhero eye colors, focusing on the "good" aligned characters. The analysis utilized Pandas for data processing and Matplotlib for visualizing the data.
+
+- Data Cleaning & Filtering: Filtered out superheroes with neutral or villain alignments and handled missing values.
+- Eye Color Analysis: Identified the top 5 most common eye colors among superheroes.
+- Visualization: Created a bar chart to show the frequency of each eye color.
+- Key Insights:
+- Blue eyes were the most frequent.
+- Brown and green eyes were also common, with rare colors like red and white appearing less often.
+  
+This project combines data analysis with a fun look at superhero demographics, offering insights into the visual patterns of iconic characters.
